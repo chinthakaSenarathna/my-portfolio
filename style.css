@@ -16,6 +16,7 @@
     --main-color: #7cf03d;
     --white-color: #fff;
     --disabled-color: #fff3;
+    --error-message: rgb(191, 0, 0);
 }
 
 html {
@@ -784,8 +785,20 @@ section.active {
     gap: 2rem;
 }
 
+.contact-container .contact-box form .field-box .field {
+    width: 100%;
+}
+
+.contact-container .contact-box form .field-box .field .error-message {
+    text-align: left;
+    margin-top: 1rem;
+    color: var(--error-message);
+    display: none;
+}
+
 .contact-container .contact-box form .field-box input,
 .contact-container .contact-box form .field-box textarea {
+    width: 100%;
     background: var(--bg-color);
     border: .2rem solid var(--bg-color);
     border-radius: .6rem;
@@ -799,8 +812,12 @@ section.active {
     border-color: var(--main-color);
 }
 
-.contact-container .contact-box form .field-box textarea {
+.contact-container .contact-box form .field-box .field.text {
     grid-column: 1 / -1;
+}
+
+.contact-container .contact-box form .field-box textarea {
+    /* grid-column: 1 / -1; */
     resize: vertical;
     min-height: 20rem;
 }

@@ -559,14 +559,32 @@
                 </div>
 
                 <div class="contact-box">
-                    <form action="">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="67d6514b-3c88-4dc3-95f2-6d6779f4147a">
+
                         <h2 class="heading">Contact <span>Me !</span></h2>
                         <div class="field-box">
-                            <input type="text" placeholder="Full Name" required>
-                            <input type="email" placeholder="Email Address" required>
-                            <input type="text" placeholder="Phone Number" required>
-                            <input type="text" placeholder="Email Subject" required>
-                            <textarea name="" id="" placeholder="Your Message" required></textarea>
+                            <div class="field">
+                                <input type="text" id="name" placeholder="Full Name" autocomplete="off">
+                                <p class="error-message">Full Name can't be blank</p>
+                            </div>
+                            <div class="field">
+                                <input type="email" id="email" placeholder="Email Address" autocomplete="off">
+                                <p class="error-message">Email Address can't be blank</p>
+                            </div>
+                            <div class="field">
+                                <input type="text" id="phoneNo" placeholder="Phone Number" autocomplete="off">
+                                <p class="error-message">Phone Number can't be blank</p>
+                            </div>
+                            <div class="field">
+                                <input type="text" id="subject" placeholder="Email Subject" autocomplete="off">
+                                <p class="error-message">Subject can't be blank</p>
+                            </div>
+                            <div class="field text">
+                                <textarea name="" id="message" placeholder="Your Message" autocomplete="off"></textarea>
+                                <p class="error-message">Message can't be blank</p>
+                            </div>
                         </div>
                         <div class="btn-box">
                             <button type="reset" class="btn">Reset</button>
@@ -578,6 +596,17 @@
         </section>
         
     </body>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "uqobL4xVp0LzIGw34",
+        });
+    })();
+    </script>
 
     <!-- custom js -->
     <script type="text/javascript" src="script.js"></script>

@@ -1,3 +1,49 @@
+const form = document.querySelector('form');
+
+const conName = document.getElementById('name');
+const conEmail = document.getElementById('email');
+const conPhoneNo = document.getElementById('phoneNo');
+const conSubject = document.getElementById('subject');
+const conMessage = document.getElementById('message');
+
+function sendEmail() {
+    const params ={
+        name: conName.value,
+        email: conEmail.value,
+        phoneNo: conPhoneNo.value,
+        subject: conSubject.value,
+        message: conMessage.value
+    }
+
+    const serviceId = "service_xsfoxpv";
+    const templateId = "template_hd9waym";
+
+    emailjs
+    .send(serviceId,templateId,params)
+    .then((res) => {
+        conName.value = "";
+        conEmail.value = "";
+        conPhoneNo.value = "";
+        conSubject.value = "";
+        conMessage.value = "";
+        console.log(res);
+        alert("your message send successfully !");
+    })
+    .catch((err) => console.log(err));
+}
+
+form.addEventListener('submit', (e) =>{
+    e.preventDefault();
+
+    sendEmail();
+})
+
+
+
+
+
+
+
 const cvBtn = document.querySelector('.cv-btn');
 
 cvBtn.addEventListener('click', () => {
