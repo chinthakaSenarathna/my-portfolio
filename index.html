@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my portfolio</title>
+        <!-- boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- custom css -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- header -->
+        <header class="active">
+            <a href="#" class="logo">Chinthaka<span class="logo-dot">.</span></a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav>
+                <a href="#" class="link active">Home</a>
+                <a href="#" class="link">Services</a>
+                <a href="#" class="link">Resume</a>
+                <a href="#" class="link">Portfolio</a>
+                <a href="#" class="link">Contact</a>
+            </nav>
+        </header>
+
+        <!-- bars backgroud -->
+        <div class="bars-box active">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+        </div>
+
+        <!-- home section -->
+        <section class="home active">
+            <div class="home-detail">
+                <h1>Chinthaka Senarathna</h1>
+                <h2>I'm a 
+                    <span style="--i:4" data-text="Problem Solver">Problem Solver</span>
+                    <span style="--i:3" data-text="Thinker">Thinker</span>
+                    <span style="--i:2" data-text="Coder">Coder</span>
+                    <span style="--i:1" data-text="Collaborator">Collaborator</span>
+                </h2>
+                <p>I am a proactive undergraduate with a solid academic foundation and strong technical skills in software engineering. Passionate about continuous learning, 
+                    I adapt quickly to advancements and excel in teamwork and communication. I am seeking a <span>Software Engineering Internship </span>to apply and enhance my knowledge in a professional environment.</p>
+                <div class="btn-sci">
+                    <a href="assets/mycv.pdf" class="btn cv-btn" target="_blank" download="chinthaka_senarathna_cv.pdf">Download CV</a>
+                    <div class="sci">
+                        <a href="https://github.com/chinthakaSenarathna" target="_blank"><i class='bx bxl-github'></i><span>Github</span></a>
+                        <a href="https://www.linkedin.com/in/chinthaka-senarathna-4a5231314/" target="_blank"><i class='bx bxl-linkedin' ></i><span>Linkedin</span></a>
+                        <a href="https://stackoverflow.com/users/22339247/prabath-chinthaka" target="_blank"><i class='bx bxl-stack-overflow'></i><span>Stackoverflow</span></a>
+                        <a href="https://www.hackerrank.com/profile/prabathchinthak1" target="_blank"><i class="fa-brands fa-hackerrank"></i><span>Hackerrank</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="images/my.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- services section -->
+        <section class="services ">
+            <h2 class="heading">My <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-code-alt'></i>
+                        <a href="#"><i class='bx bx-arrow-back'></i></a>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and scalable websites tailored to meet modern standards, ensuring optimal performance and user experience.</p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-code-alt'></i>
+                        <a href="#"><i class='bx bx-arrow-back'></i></a>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Building robust and user-friendly mobile applications for Android and iOS platforms with seamless functionality.</p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bxs-paint'></i>
+                        <a href="#"><i class='bx bx-arrow-back'></i></a>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting intuitive and visually appealing interfaces to provide engaging and user-centered experiences.</p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-palette'></i>
+                        <a href="#"><i class='bx bx-arrow-back'></i></a>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Delivering professional designs, including branding, marketing materials, and creative visuals for impactful communication.</p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-trending-up'></i>
+                        <a href="#"><i class='bx bx-arrow-back'></i></a>
+                    </div>
+                    <h3>SEO</h3>
+                    <p>Optimizing websites to rank higher on search engines, driving organic traffic, and improving online visibility.</p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-slideshow'></i>
+                        <a href="#"><i class='bx bx-arrow-back'></i></a>
+                    </div>
+                    <h3>Video Editing</h3>
+                    <p>Producing polished video content by enhancing visuals, adding effects, and aligning with creative storytelling.</p>
+                </div>
+                <div class="services-box">
+                    <div class="icon">
+                        <i class='bx bx-camera'></i>
+                        <a href="#"><i class='bx bx-arrow-back'></i></a>
+                    </div>
+                    <h3>Photography</h3>
+                    <p>Capturing stunning photographs that preserve moments with precision, creativity, and attention to detail.</p>
+                </div>                
+            </div>
+        </section>
+
+        <!-- resume section -->
+        <section class="resume ">
+            <div class="resume-container">
+                <div class="resume-box">
+                    <h2>Why Hier Me?</h2>
+                    <p class="desc">I bring a unique blend of technical expertise, creativity, and a strong work ethic to every project. 
+                        With hands-on experience in diverse technologies, a passion for continuous learning, and a track record of delivering results, 
+                        I am committed to exceeding expectations and driving success. My adaptability and collaborative nature make me a valuable asset to any team or organization.</p>
+                    <button class="resume-btn active">Certificates</button>
+                    <button class="resume-btn">Education</button>
+                    <button class="resume-btn">Skills</button>
+                    <button class="resume-btn">About Me</button>
+                </div>
+                <div class="resume-box">
+                    <div class="resume-detail experince active_">
+                        <h2 class="heading">My <span>Certificates</span></h2>
+                        <p class="desc">I have completed comprehensive courses and participated in coding competitions, honing my problem-solving and algorithmic skills under time constraints. 
+                            These experiences have helped me strengthen my ability to develop robust applications and think critically when faced with complex coding challenges.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p class="year">2024 - Issue</p>
+                                <h3>Web Design for Beginners</h3>
+                                <p class="company">University of Moratuwa.</p>
+                                <p>This course covers the fundamentals of web design, including HTML, CSS, JavaScript, and responsive design. It provides the essential skills and knowledge needed to 
+                                    become a proficient web designer.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">2024 - Issue</p>
+                                <h3>Python for Beginners</h3>
+                                <p class="company">University of Moratuwa.</p>
+                                <p>I successfully completed a Python Beginners Course, which provided a foundational understanding of Python programming, including syntax, data structures, 
+                                    and basic problem-solving techniques.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">2022 - Issue</p>
+                                <h3>Code Rush</h3>
+                                <p class="company">INTECS - UoM.</p>
+                                <p>I participated in Code Rush 2022, an intra-faculty coding competition, as part of a team. This experience allowed us to collaboratively solve challenging programming problems, 
+                                    enhance our technical skills, and showcase our teamwork and problem-solving abilities in a competitive environment.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">2023 - Issue</p>
+                                <h3>Code Rush</h3>
+                                <p class="company">INTECS - UoM.</p>
+                                <p>I participated in Code Rush 2023, an intra-faculty coding competition, as part of a team. This experience allowed us to collaboratively solve challenging programming problems, 
+                                    enhance our technical skills, and showcase our teamwork and problem-solving abilities in a competitive environment.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">2024 - Issue</p>
+                                <h3>Code Rush</h3>
+                                <p class="company">INTECS - UoM.</p>
+                                <p>I participated in Code Rush 2024, an intra-faculty coding competition, as part of a team. This experience allowed us to collaboratively solve challenging programming problems, 
+                                    enhance our technical skills, and showcase our teamwork and problem-solving abilities in a competitive environment.</p>
+                            </div>
+                            <!-- <div class="resume-item">
+                                <p class="year">2023 - Present</p>
+                                <h3>Full Stack Developer</h3>
+                                <p class="company">Abc Corp.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam earum eveniet veniam,</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="resume-detail education">
+                        <h2 class="heading">My <span>Education</span></h2>
+                        <p class="desc">I am pursuing my degree at the University of Moratuwa and have completed a diploma in IT at ESoft Campus and a Pearson Assured Diploma in English at Saegis Campus, 
+                            building strong technical and communication skills.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <p class="year">2022 - Present</p>
+                                <h3>BScHons (IT)</h3>
+                                <p class="company">University of Moratuwa</p>
+                                <p>I am pursuing a BScHons (IT) degree at the Faculty of Information Technology, University of Moratuwa, known for its high-performing graduates who excel in 
+                                    IT competitions and secure employment both locally and internationally. The program’s strong industry reputation and comprehensive curriculum equip me 
+                                    with the skills to contribute effectively to the IT field while providing opportunities for further academic growth.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">2021 - 2022</p>
+                                <h3>Diploma in IT</h3>
+                                <p class="company">ESOFT Metro Campus</p>
+                                <p>I completed the Level 3 Diploma in Information Technology at ESoft Campus, which provided me with a solid foundation in IT. The course covered essential areas such as 
+                                    IT concepts, MS Office, computer hardware, network technology, web design, graphics, software engineering, programming in Python and C#, and databases with SQL. 
+                                    This diploma equipped me with both theoretical knowledge and practical skills to pursue a career in the IT field.</p>
+                            </div>
+                            <div class="resume-item">
+                                <p class="year">2021 - 2021</p>
+                                <h3>Diploma in English</h3>
+                                <p class="company">Saegis Campus</p>
+                                <p>I completed the Pearson Assured Diploma in English at Saegis Campus, a globally recognized qualification that demonstrates advanced proficiency in English. 
+                                    This program enhanced my skills in reading, writing, listening, and speaking, providing me with practical language abilities applicable in both personal and 
+                                    professional settings. The diploma serves as a reliable benchmark of my English competence, supporting my growth and competitiveness in the global job market.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-detail skills">
+                        <h2 class="heading">My <span>Skills</span></h2>
+                        <p class="desc">I am a skilled IT professional with expertise in software development, programming, and database management. I excel in problem-solving, system design, and implementing innovative solutions, 
+                            with a strong focus on delivering efficient and scalable results.</p>
+                        <div class="resume-list">
+                            <div class="resume-item">
+                                <i class='bx bxl-html5' ></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-css3' ></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-javascript' ></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-typescript'></i>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-java'></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-python'></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-react' ></i>
+                                <span>React.js</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-angular'></i>
+                                <span>Angular</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-spring-boot'></i>
+                                <span>Spring Boot</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-tailwind-css' ></i>
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-bootstrap'></i>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-postgresql'></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-git'></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="resume-item">
+                                <i class='bx bxl-aws'></i>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-detail about">
+                        <h2 class="heading">About <span>Me</span></h2>
+                        <p class="desc"></p>
+                        <table class="before">
+                            <tbody>
+                                <tr>
+                                    <td class="point">Name </td>
+                                    <td><span>:</span> Chinthaka Senarathna</td>
+                                    <td class="space"></td>
+                                    <td class="point">Gender </td>
+                                    <td><span>:</span> Male</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Age </td>
+                                    <td><span>:</span> 24 Years Old</td>
+                                    <td class="space"></td>
+                                    <td class="point">Status </td>
+                                    <td><span>:</span> Un-Married</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">City </td>
+                                    <td><span>:</span> Colombo</td>
+                                    <td class="space"></td>
+                                    <td class="point">Nationality </td>
+                                    <td><span>:</span> Sinhalese</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Experince </td>
+                                    <td><span>:</span> 10+ Years</td>
+                                    <td class="space"></td>
+                                    <td class="point">Full Time </td>
+                                    <td><span>:</span> Availlable</td>
+                                </tr>
+                                    <td class="point">Part Time </td>
+                                    <td><span>:</span> Availlable</td>
+                                    <td class="space"></td>
+                                    <td class="point">Freelance </td>
+                                    <td><span>:</span> Availlable</td>
+                                </tr>
+                                </tr>
+                                    <td class="point">Phone </td>
+                                    <td><span>:</span> (+94) 77 580 3178</td>
+                                    <td class="space"></td>
+                                    <td class="point">Email </td>
+                                    <td><span>:</span> chinthakasenarathna369@gmail.com</td>
+                                </tr>
+                                </tr>
+                                    <td class="point">Languages </td>
+                                    <td><span>:</span> English, French, Sinhala</td>
+                                    <td class="space"></td>
+                                    <td> </td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <table class="after">
+                            <tbody>
+                                <tr>
+                                    <td class="point">Name </td>
+                                    <td><span>:</span> Chinthaka Senarathna</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Gender </td>
+                                    <td><span>:</span> Male</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Age </td>
+                                    <td><span>:</span> 24 Years Old</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Status </td>
+                                    <td><span>:</span> Un-Married</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">City </td>
+                                    <td><span>:</span> Colombo</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Nationality </td>
+                                    <td><span>:</span> Sinhalese</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Experince </td>
+                                    <td><span>:</span> 10+ Years</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Full Time </td>
+                                    <td><span>:</span> Availlable</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Part Time </td>
+                                    <td><span>:</span> Availlable</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Freelance </td>
+                                    <td><span>:</span> Availlable</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Phone </td>
+                                    <td><span>:</span> (+94) 77 580 3178</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Email </td>
+                                    <td><span>:</span> chinthakasenarathna369@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td class="point">Languages </td>
+                                    <td><span>:</span> English, French, Sinhala</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio section -->
+        <section class="portfolio ">
+            <h2 class="heading">Latest <span>Project</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <div class="portfolio-detail active">
+                        <p class="numb">01</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et repellendus id dolor fugit? Dolores, itaque nemo, aspernatur corporis quaerat 
+                            deleniti nihil placeat odit facilis accusantium harum fuga! Vitae, nobis.</p>
+                        <div class="tech">
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">02</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et repellendus id dolor fugit? Dolores, itaque nemo, aspernatur corporis quaerat 
+                            deleniti nihil placeat odit facilis accusantium harum fuga! Vitae, nobis.</p>
+                        <div class="tech">
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">03</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et repellendus id dolor fugit? Dolores, itaque nemo, aspernatur corporis quaerat 
+                            deleniti nihil placeat odit facilis accusantium harum fuga! Vitae, nobis.</p>
+                        <div class="tech">
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">04</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et repellendus id dolor fugit? Dolores, itaque nemo, aspernatur corporis quaerat 
+                            deleniti nihil placeat odit facilis accusantium harum fuga! Vitae, nobis.</p>
+                        <div class="tech">
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">05</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et repellendus id dolor fugit? Dolores, itaque nemo, aspernatur corporis quaerat 
+                            deleniti nihil placeat odit facilis accusantium harum fuga! Vitae, nobis.</p>
+                        <div class="tech">
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-detail">
+                        <p class="numb">06</p>
+                        <h3>Frontend Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat et repellendus id dolor fugit? Dolores, itaque nemo, aspernatur corporis quaerat 
+                            deleniti nihil placeat odit facilis accusantium harum fuga! Vitae, nobis.</p>
+                        <div class="tech">
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="live-github">
+                            <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                            <a href="#"><i class='bx bxl-github'></i><span>Github Repository</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <!-- images carousel -->
+                    <div class="portfolio-carousel">
+                        <div class="img-slide">
+                            <div class="img-item">
+                                <img src="images/portfolio1.jpg"/>
+                            </div>
+                            <div class="img-item">
+                                <img src="images/portfolio2.jpg"/>
+                            </div>
+                            <div class="img-item">
+                                <img src="images/portfolio3.jpg"/>
+                            </div>
+                            <div class="img-item">
+                                <img src="images/portfolio4.jpg"/>
+                            </div>
+                            <div class="img-item">
+                                <img src="images/portfolio5.jpg"/>
+                            </div>
+                            <div class="img-item">
+                                <img src="images/portfolio6.jpg"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navigation">
+                        <button class="arrow-left disable"><i class='bx bx-chevron-left'></i></button>
+                        <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section class="contact ">
+            <div class="contact-container">
+                <div class="contact-box">
+                    <h2>Let's Work Together</h2>
+                    <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Corporis, at deserunt? Blanditiis ab doloribus voluptatum eligendi ducimus quas consequuntur necessitatibus odio dolore, dolor maxime dolorum. Deserunt eius laborum doloribus eaque.</p>
+                    <div class="contact-detail">
+                        <i class='bx bxs-phone'></i>
+                        <div class="detail">
+                            <p>Phone</p>
+                            <p>(+94) 77 580 3178</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class='bx bxs-envelope' ></i>
+                        <div class="detail">
+                            <p>Email</p>
+                            <p>chinthakasenarathna369@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <i class='bx bxs-map' ></i>
+                        <div class="detail">
+                            <p>Address</p>
+                            <p>Meril De Silwa Rd, Elahera</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <form action="">
+                        <h2 class="heading">Contact <span>Me !</span></h2>
+                        <div class="field-box">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email Address" required>
+                            <input type="text" placeholder="Phone Number" required>
+                            <input type="text" placeholder="Email Subject" required>
+                            <textarea name="" id="" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="btn-box">
+                            <button type="reset" class="btn">Reset</button>
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+
+    <!-- custom js -->
+    <script type="text/javascript" src="script.js"></script>
+
+</html>
